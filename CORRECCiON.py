@@ -77,7 +77,8 @@ def Ej11():
             precioAuto = float(entradaUsuario)
             listaAutos.append(precioAuto)
     totalIngresos = sum(listaAutos)
-    comisionFinal = totalIngresos * 0.05
+    cantidad = len(listaAutos)
+    comisionFinal = cantidad * 200 * + totalIngresos * 0.05 + 5500
     print("El salario del vendedor es:", comisionFinal)
 Ej11()
 
